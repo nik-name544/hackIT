@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('components/_head.html')
+
+<body>
+  <!-- @@include('components/_header.html') -->
+  <!-- WRITE CODE HERE -->
+  <header class="header-auth">
+    <div class="header-auth-logo__inner">
+      <img src="./images/logo.png" class="header-auth-logo">
+    </div>
+  </header>
+  <section class="auth">
+    <div class="auth__inner">
+      <p class="auth__title">
+        Войти
+      </p>
+      <p class="auth__text">
+        Войдите в приложение, введя свои учетные данные
+      </p>
+      <form class="auth__form-inner">
+        <input type="text" name="login" class="auth__form-input" placeholder="Логин">
+        <input type="text" name="password" class="auth__form-input" placeholder="Пароль">
+        <button class="auth__form-btn">Войти</button>
+        <span class="auth__form-text">
+          или
+        </span>
+        <button class="auth__form-btn-reg">
+          <p class="auth__form-btn-reg-text">
+            Зарегестрироваться
+          </p>
+        </button>
+      </form>
+      <div class="auth__forgot-wrapper">
+        <a href="#" class="auth__forgot">Забыли пароль?</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- STOP WRITE CODE -->
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+
+</html>

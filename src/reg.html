@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('components/_head.html')
+
+<body>
+  <!-- @@include('components/_header.html') -->
+  <!-- WRITE CODE HERE -->
+  <header class="header-auth">
+    <div class="header-auth-logo__inner">
+      <img src="./images/logo.png" class="header-auth-logo">
+    </div>
+  </header>
+  <section class="auth">
+    <div class="auth__inner">
+      <p class="auth__title">
+        Регистрация
+      </p>
+      <p class="auth__text">
+        Войдите в приложение, зарегистрировавшись
+      </p>
+      <form class="auth__form-inner"> 
+          <input type="text" name="loginReg" class="auth__form-input corr" placeholder="Алексей Буйный">  
+          <input type="text" name="eMailReg" class="auth__form-input wrong" placeholder="Резервный e-mail"> 
+        <input type="text" name="passwordReg" class="auth__form-input" placeholder="Пароль"> 
+          <input type="text" name="passwordCopyReg" class="auth__form-input" placeholder="Повторите пароль"> 
+        <button class="auth__form-btn">Продолжить</button>
+        <span class="auth__form-text">
+          или
+        </span>
+        <button class="auth__form-btn-reg">
+          <p class="auth__form-btn-reg-text">
+            Войти
+          </p>
+        </button>
+      </form>
+
+    </div>
+  </section>
+
+
+
+
+  <!-- STOP WRITE CODE -->
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+
+</html>

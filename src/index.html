@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('components/_head.html')
+
+<body>
+    <!-- @@include('components/_header.html') -->
+    <!-- WRITE CODE HERE -->
+    <div class="header-main__box">
+        <header class="header-main">
+            <div class="header-main__wrapper">
+                <div class="header-main__logo-inner">
+                    <img src="./images/main-logo.png" class="header-main__logo">
+                    <p class="header-main__logo-subtitle">
+                        pringles
+                    </p>
+                    <p class="header-main__logo-title">
+                        Алексей Буйный
+                    </p>
+                    <a href="#" class="header-main__logo-link">Профиль</a>
+                </div>
+                <div class="header-main__nav">
+                    <div class="header-main__nav-list">
+                        <p class="header-main__nav-list-title">Меню</p>
+                        <a href="#" class="header-main__nav-link link1 active">Активные кампании</a>
+                        <a href="#" class="header-main__nav-link link2">Прошедшие кампании</a>
+                        <a href="#" class="header-main__nav-link link3">КCRM база</a>
+                        <a href="#" class="header-main__nav-link link4">Аналитика</a>
+                        <a href="#" class="header-main__nav-link link5">Продвижение:</a>
+                        <a href="#" class="header-main__nav-link link6">Оплата</a>
+                        <a href="#" class="header-main__nav-link link7">Настройки</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main__link-inner">
+                <a href="@" class="header-main__link">Служба поддержки</a>
+            </div>
+        </header>
+        <section class="main-page">
+            <div class="main-page__inner">
+                <div class="main-page__company">
+                    <p class="main-page__company-title">Кампании</p>
+                    <select name="companySelect" class="main-page__company-select">
+                        <option value="value1" selected class="main-page__company-option">
+                            Алексей Буйный (PR287901)
+                        </option>
+                        <option value="value2" class="main-page__company-option">
+                            item
+                        </option>
+                        <option value="value3" class="main-page__company-option">
+                            item
+                        </option>
+                    </select>
+                </div>
+                <div class="main-page__search">
+                    <form class="main-page__search-form">
+                        <input type="text" name="search" class="main-page__search-input"
+                            placeholder="Искать и фильтровать">
+                    </form>
+                    <select name="" class="main-page__search-select">
+                        <option value="value1" selected class="main-page__search-option">
+                            В этом месяце : 01.11.20 - 25.11..20
+                        </option>
+                        <option value="value2" class="main-page__search-option">
+                            item
+                        </option>
+                        <option value="value3" class="main-page__search-option">
+                            item
+                        </option>
+                    </select>
+                </div>
+                <div class="main-page__content product-one__tabs">
+
+                    <div class="main-page__content-tabs tabs">
+                        <span class="main-page__content-tab tab active" data-id="1">Кампании</span>
+                        <span class="main-page__content-tab tab " data-id="2">Рекламные наборы</span>
+                        <span class="main-page__content-tab tab " data-id="3">Объявления</span>
+                    </div>
+                    <div class="main-page__content-tabs-inner ">
+                        <div class="tab-item active-tab" id="1">
+                            <div class="content-tabs__top">
+                                <div class="content-tabs__top-btn">
+                                    <p class="content-tabs__top-btn-text">
+                                        Создать
+                                    </p>
+                                </div>
+                                <div class="content-tabs__top-btn-g edit">
+                                    <p class="content-tabs__top-btn-g-text">
+                                        Редактирование
+                                    </p>
+                                </div>
+
+                                <select name="companySelect" class="content-tabs__top-select">
+                                    <option value="value1" selected class="content-tabs__top-option">
+                                        Взаимодействия с другими людьми
+                                    </option>
+                                    <option value="value2" class="content-tabs__top-option">
+                                        item
+                                    </option>
+                                    <option value="value3" class="content-tabs__top-option">
+                                        item
+                                    </option>
+                                </select>
+
+                                <div class="content-tabs__top-btn-g">
+                                    <p class="content-tabs__top-btn-g-text">
+                                        Отчёт
+                                    </p>
+                                </div>
+                            </div>
+                            <table class="content-tabs__table">
+                                <tr class="content-tabs__table-top-list">
+                                    <th class="content-tabs__table-top-item1">
+                                        <label class="content-tabs__table-top-input-wrapper">
+                                            <input class="content-tabs__table-top-input" type="checkbox"  name="item1">
+                                        </label>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                            Название кампании
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                            Доставка
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                            Стратегия ставок
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                            Бюджет
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                            Стоимость
+                                            <span>за результат</span>
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                            Сумма потрачена
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point">
+                                            Заканчивается
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr class="content-tabs__table-top-list">
+                                    <th class="content-tabs__table-top-item1">
+                                        <label class="content-tabs__table-top-input-wrapper">
+                                            <input class="content-tabs__table-top-input" type="checkbox" data-check="checkbox1" name="item2">
+                                        </label>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <input type="radio" name="item3">
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point blue">
+                                            Промо pringles 2.0
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point gray">
+                                            Взаимодействие...
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point black">
+                                            Использование...
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point black">
+                                            Использование...
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point gray">
+                                            Взаимодействие...
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point black">
+                                            192.48 руб.
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point black">
+                                            17.12.20
+                                        </div>
+                                    </th>
+
+                                </tr>
+                                <tr class="content-tabs__table-top-list">
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point black">
+                                            Результаты из 6 кампаний
+                                        </div>
+                                    </th>
+                                    <th class="content-tabs__table-top-item1">
+                                        <div class="content-tabs__table-top-point black">
+                                            2386.47 руб.
+                                            <span>
+                                                Всего потрачено
+                                            </span>
+                                        </div>
+                                    </th>
+
+                                </tr>
+                            </table>
+                        </div>
+
+
+                        <div class="tab-item" id="2">
+                            <p>ddd</p>
+                        </div>
+                        <div class="tab-item" id="3">
+                            <p>ddd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <!-- STOP WRITE CODE -->
+    @@include('components/_footer.html')
+    @@include('components/_scripts.html')
+</body>
+
+</html>
